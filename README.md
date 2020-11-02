@@ -1,10 +1,10 @@
-# webserver
-
-I spun up a server with python and flask.
+# functioning website on a local server
 
 This project served as a tutorial to teach myself how to make something simple and get it live quickly.
 
-I also got more practice on how to read documentation, leverage a framework (libary), and work through some annoying errors.
+I initially spun up a server with python and flask to load a website.
 
-My next steps are to update the html, css, and javascript to turn this into a real website.
+This gave me more practice on reading documentation, using a framework (libary), and working through errors.
+
+My next steps are to turn this into a real website by impriving the html, css, and javascript. 
 
