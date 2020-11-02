@@ -10,10 +10,14 @@ def yo():
 def about():
 	return render_template('about.html')
 
-@app.route('/blog')
-def blog():
-	return 'not hotdog'
+@app.route('/components.html')
+def component():
+	return render_template('components.html')
 
-@app.route('/blog/2020/donkey')
-def blog2():
-	return 'you are a space donkey'
+@app.route('/works.html')
+def works():
+	return render_template('works.html')
+
+@app.route('/contact.html')
+def contact():
+	return render_template('contact.html')
