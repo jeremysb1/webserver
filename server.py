@@ -2,9 +2,9 @@ from flask import Flask, render_templates, url_for
 app = Flask(__name__)
 
 
-@app.route('/<username>/<int:post_id>')
-def yo(username=None, post_id=None):
-	return render_template('index.html', name=username, post_id=post_id)
+@app.route('/')
+def yo():
+	return render_template('index.html')
 
 @app.route('/about.html')
 def about():
